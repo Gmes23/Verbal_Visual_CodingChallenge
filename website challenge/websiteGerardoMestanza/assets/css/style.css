@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700');
+
+a, a:hover, a:active, a:visited {
+    text-decoration: none !important;
+    cursor: pointer;
+}
+
+.h1-styled {
+    font-size: 4.3em;
+    white-space: nowrap
+}
+
+.h3-styled {
+    font-size: 1.278em;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.button-main {
+    background-color: transparent;
+    padding: 3%;
+    margin-top: 20px;
+    width: 47%;
+    font-size: 1.3em;
+    border: 3px solid white;
+}
+
+.logo-link {
+    text-decoration: none; 
+    cursor: pointer; 
+    font-size: 2.2em;  
+    margin-left: 3%;
+    color: rgb(52,85,111);
+}
+
+.glyphicon-menu-hamburger {
+    float: right;
+    font-size: 2em;
+    margin-right: 3%;
+    margin-top: 10px;
+    color: rgb(52,85,111);
+}
+
+#navbar {
+    height: 50px;
+    background-color: white;
+    -webkit-box-shadow: 0px 2px 9px 0px rgba(50, 50, 50, 0.65);
+    -moz-box-shadow:    0px 2px 9px 0px rgba(50, 50, 50, 0.65);
+    box-shadow:         0px 2px 9px 0px rgba(50, 50, 50, 0.65);
+    transition: all 0.5s ease;
+    text-align: justify;
+}
+
+.background {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../images/image1.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+.gradient {
+    height: 100%;
+    width: 100%;
+    opacity: .95;
+    background-color: #A8C0D8;
+    background: #A8C0D8 -webkit-gradient(linear, left top, left bottom, from(#3F250B), to(#214365)) no-repeat;
+    background: #A8C0D8 -moz-linear-gradient(top, #3F250B, rgba(0,30,48,0.95)) no-repeat;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#3F250B, endColorstr=#214365) no-repeat;
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#3F250B, endColorstr=#214365)" no-repeat;
+}
+
+.fullpage-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+
+.main-description {
+    color: #ffffff;
+    font-family: 'Karla', sans-serif;
+}
+
+.bottom-page {
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+}
+
+.bottom-links {
+    list-style-type: none;
+    color: rgb(52,85,111);
+    position: relative;
+    margin-top: 5%;
+    left: -4%;
+}
+
+.image-wrap {
+    padding-right: 15%;
+    padding-left: 15%;
+    width: 100%;
+}
+
+.image-2 {
+    height: 100%;
+    width: 100%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+.span-left {
+    position: relative;
+    left: -17%;
+    top: -82px;
+    display: block;
+    width: 43%;
+    height: 2px;
+    background: rgb(52,85,111);
+    -webkit-transform: rotate(70deg);
+    -moz-transform: rotate(70deg);
+    -o-transform: rotate(70deg);
+    -ms-transform: rotate(70deg);
+    transform: rotate(70deg);
+}
+
+.span-right {
+    position: absolute;
+    display: block;
+    left: 68%;
+    top: 29%;
+    width: 26%;
+    height: 2px;
+    background: rgb(52,85,111);
+    -webkit-transform: rotate(70deg);
+    -moz-transform: rotate(70deg);
+    -o-transform: rotate(70deg);
+    -ms-transform: rotate(70deg);
+    transform: rotate(70deg);
+}
+
+.arrowholder {
+    position: absolute;
+    bottom: 10%;
+    font-size: 1.5em;
+    color: white;
+}
+
+.arrow-body {
+    position: absolute;
+    display: block;
+    width: 8px;
+    height: 50px;
+    background-color: white;
+    right: 26.6%;
+    bottom: 42%;
+}
+
+.glyphicon-arrow-down {
+    color: white;
+}
+
+.glyphicon-arrow-down:hover {
+    color: white;
+}
+
